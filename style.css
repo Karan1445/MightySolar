@@ -143,33 +143,185 @@ button:hover::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    width: 100%;
 }
 .Our-Project-Main-Tittle{
     font-size: 44px;
     color: #ECF39E;
-    margin: 32px auto;
-    
+    margin: 28px auto;
 }
 .Our-Project-Artical-Wrraper{
     color: #132A13;
 }
 
 .Our-Project-Section-artical{
+    background-color: #fbffd4;
     margin-bottom: 36px;
     display: flex;
+    border-radius: 3px;
 }
+
 .Our-Project-Section-artical img{
-    height: 20dvh;
+    scale: 1.2;
+    height: 24dvh;
     width: 20dvw;
+    box-shadow: 0px 0px 24px #40422c;
+    border-radius: 3px;
 }
 
 .Our-Project-Section-artical h4{
     font-size: 28px;
     margin-bottom: 24px;
-    font-weight: 600;
+    font-weight: 300;
+     color: #4F772D;
 }
 
 .Our-Project-Section-artical p{
     font-size: 16px;
+    line-height: 1.5;
 }
+.right h4,.right p{
+    text-align: end;
+}
+.text-wrapper{
+    width: 80%; 
+    padding-top: 12px;
+  
+}
+
+
+/* Table DATA */
+.table-section {
+    height: 100dvh;
+    padding-top: 24px;
+    background-color: #4F772D;
+    text-align: center;
+}
+
+.Solar-Data-Title {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: #ECF39E;
+  font-weight: 700;
+}
+
+.solar-impact-table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+.solar-impact-table th {
+  background: #31572C;
+  color: #ECF39E;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.solar-impact-table td {
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 15px;
+  color: #132A13;
+  border-bottom: 1px solid #ddd;
+}
+
+.solar-impact-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.solar-impact-table tr:nth-child(odd) {
+  background: #fff;
+}
+
+.solar-impact-table tr:hover {
+  background: #90A955;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+/* Enginerr with us */
+/* gpt */
+.Enginner-show {
+    height: 100dvh;
+    padding: 3rem 2rem;
+    background-color: #4F772D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Enginner-show-tittle {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    color: #ECF39E;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Enginerr-show-artical {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Card Style */
+.card {
+    background-color: #ECF39E;
+    color: #132A13;
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 450px;
+    padding: 1.5rem;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform:scale(1.1);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Text Styling */
+.Enginenr-text-wrapper h3 {
+    font-size: 22px;
+    margin-bottom: 0.7rem;
+    color: #31572C;
+}
+
+.Enginenr-text-wrapper p:first-of-type {
+    font-size: 14px;
+    font-weight: 600;
+    color: #90A955;
+    margin-bottom: 0.7rem;
+}
+
+.Enginenr-text-wrapper p:last-of-type {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #132A13;
+}
+
+/* END GPT */

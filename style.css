@@ -325,3 +325,138 @@ button:hover::before {
 }
 
 /* END GPT */
+
+/* grid */
+.About-us{
+    height: 100dvh;
+    padding: 3rem 10rem;
+    background-color: #4F772D;
+    display: flex;
+    flex-direction: column;
+
+}
+.tittle{
+     font-size: 36px;
+    margin-bottom: 4rem;
+    color: #ECF39E;
+    font-weight: 700;
+    text-align: center;
+}
+.first-para{
+    color: #dcfd8e;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 24px;
+    margin-bottom: 34px;
+}
+.secound-para{
+    color: #dcfd8e;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+.ui-tittle{
+    color: #dcfd8e;
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 34px;
+}
+li{
+    font-size: 16px;
+    color: #ecf39e66;
+    margin-bottom: 10px;
+}
+.h3-tittle{
+    color: #dcfd8e;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.h2-tittle{
+    color: #dcfd8e;
+    color:#212121;
+    margin-bottom: 10px;
+}
+/*  */
+.footer {
+  background: #132A13;
+  color: #ECF39E;
+  padding: 3rem 2rem 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-brand h2 {
+  color: #90A955;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  margin-bottom: 1rem;
+  color: #90A955;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #ECF39E;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #90A955;
+}
+
+.footer-contact p {
+  margin: 0.4rem 0;
+}
+
+.footer-social .social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.footer-social .social-icons a img:hover {
+  transform: scale(1.2);
+  filter: brightness(0) invert(0.7) sepia(1) hue-rotate(60deg);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 14px;
+  border-top: 1px solid #31572C;
+  padding-top: 1rem;
+}
